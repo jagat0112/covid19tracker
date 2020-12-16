@@ -1,0 +1,462 @@
+.App {
+  text-align: center;
+  font-size: 40px;
+  background-color: #F0F2F5;
+
+}
+
+.card-corona {
+  width: 280px;
+  background-color: white;
+  font-size: 18px;
+  padding: 25px;
+  text-align: left;
+
+}
+
+.card-text1 {
+  color: #D6DEE7
+}
+
+.link {
+  transition: all .3s;
+}
+
+@media only screen and (max-width: 768px) {
+  .link {
+    font-size: 16px;
+  }
+}
+
+.link:hover {
+  text-decoration: none;
+  color: whitesmoke !important;
+}
+
+.icon:hover {
+  text-decoration: none;
+}
+
+.h3 {
+  font-size: 28px;
+}
+
+.p {
+  font-size: 23px;
+}
+
+.linked {
+  color: #4B4B4B
+}
+
+.linked:hover {
+  text-decoration: none;
+}
+
+.flag {
+  border-radius: 30%;
+}
+
+@media only screen and (max-width: 991px) {
+  .flag {
+    width: 150px;
+  }
+}
+
+
+.country {
+  color: #4B4B4B;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .country {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .figure {
+    font-size: 30px;
+  }
+}
+
+.type {
+  color: gray;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .type {
+    font-size: 16px;
+  }
+}
+
+.today {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 991px) {
+  .today {
+    font-size: 12px;
+  }
+}
+
+.loading {
+  width: 250px;
+}
+
+@media only screen and (max-width: 991px) {
+  .loading {
+    width: 150px;
+  }
+}
+
+.title {
+  color: #4B4B4B;
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+.icon-img {
+  width: 60px;
+  font-weight: 700;
+}
+
+.global-cases {
+  font-size: 50px;
+  color: #AAAAAA;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 991px) {
+  .global-cases {
+    font-size: 37px;
+
+  }
+}
+
+.global-death {
+  font-size: 50px;
+  color: #696969;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 991px) {
+  .global-death {
+    font-size: 37px;
+  }
+}
+
+.nav-icon {
+  width: 25px
+}
+
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+.p {
+  margin-bottom: 0 !important;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .p {
+    padding: 5px 0;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-details {
+    padding: 10px 0 !important;
+    line-height: 0.3;
+  }
+}
+
+.col-6 {
+  font-weight: "700";
+  padding: "20px 0";
+  line-height: "0.4";
+  text-align: "center";
+
+}
+
+.search-bar {
+  padding: 20px 100px
+}
+
+@media only screen and (max-width: 768px) {
+  .search-bar {
+    padding: 20px 10px;
+  }
+}
+
+.symptoms-gif {
+  display: flex;
+  justify-content: space-around
+}
+
+@media only screen and (max-width: 768px) {
+
+  .symptoms-gif {
+    justify-content: normal
+  }
+}
+
+.symptoms-text {
+  font-size: 20px;
+  text-align: left;
+}
+
+.symptoms-all {
+  color: #4B4B4B;
+  font-weight: 400px;
+  margin-left: 40px;
+  margin-right: 200px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .symptoms-all {
+    margin-right: 30px;
+    line-height: 1.7;
+  }
+}
+
+.about {
+  color: #4B4B4B;
+  padding: 20px 40px 310px 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 20px 40px 230px 40px;
+  }
+}
+
+.pie-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: gray
+}
+
+@media only screen and (max-width: 768px) {
+  .pie-text {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.card-pie {
+  border: 1px solid #D6DEE7;
+  border-radius: 12px;
+  padding: 10px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin: 20px 10px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-chart {
+  border: 1px solid #D6DEE7;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 10px;
+  max-width: 100%;
+}
+
+@media only screen and (min-width:768px) {
+  .card-chart {
+    padding: 50px;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  .card-chart {
+    max-width: 100%;
+    margin: 20px 10px;
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .card-chart {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (min-width:1600px) {
+  .card-chart {
+    max-width: 1400px;
+  }
+}
+
+.state-card {
+
+  margin: 20px 10px;
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width:768px) {
+  .state-card div {
+    margin: 0 !important;
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+  .state-card div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  .state-card {
+    max-width: 100%;
+    margin: 20px 10px;
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .state-card {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (min-width:1600px) {
+  .state-card {
+    max-width: 1400px;
+  }
+}
+
+.overview {
+  font-weight: 600;
+  font-size: 35px;
+  color: #0A0A0E;
+  padding: 10px 0;
+  margin: 20px 0
+}
+
+@media only screen and (min-width:768px) {
+  .overview {
+    font-weight: 600;
+    font-size: 45px;
+  }
+}
+
+.flag2 {
+  width: 20%;
+}
+
+@media only screen and (min-width:685px) {
+  .flag2 {
+    width: 8%;
+  }
+
+}
+
+.info {
+  font-weight: 600;
+  border: 1px solid #D6DEE7;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 20px 10px;
+  max-width: 100%;
+}
+
+@media only screen and (min-width:1024px) {
+  .info {
+    max-width: 100%;
+    margin: 20px 10px;
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .info {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (min-width:1600px) {
+  .info {
+    max-width: 1400px;
+  }
+}
+
+.pie-chart {
+  width: 100%;
+  margin: 0 auto !important;
+}
+
+@media only screen and (min-width:768px) {
+  .pie-chart {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  .pie-chart {
+    width: 50%;
+  }
+}
+
+.table {
+  width: initial !important;
+  border: 1px solid #D6DEE7;
+  border-radius: 12px;
+
+}
+
+@media only screen and (min-width:768px) {
+  .table {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width:767px) {
+
+  .table td,
+  .table th {
+    font-size: 12px !important;
+    padding: 7px 11px !important;
+  }
+
+}

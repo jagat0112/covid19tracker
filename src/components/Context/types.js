@@ -1,0 +1,6 @@
+export const GLOBAL_CASES = "GLOBAL_CASES";
+export const SEARCH_COUNTRY = "SEARCH_COUNTRY";
+export const COUNTRY_CASES = "COUNTRY_CASES";
+export const COUNTRY_INFO = "COUNTRY_INFO";
+export const COUNTRY_HISTORY = "COUNTRY_HISTORY";
+export const PROVINCE_DATA = "PROVINCE_DATA";
